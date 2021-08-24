@@ -1,12 +1,34 @@
 body {
     margin: 0;
     padding: 0;
+    display: flex;
 }
 
 aside {
-    display: flex;
-    justify-content: space-evenly;
     background-color: #f44336;
     height: 100vh;
     width: 20%;
+    color: white;
 }
+
+ul li{
+    list-style-type: none;
+    padding: 2rem 0;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.img-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-container img{
+    width: 300px;
+    padding: 5px;
+}
+
